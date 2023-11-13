@@ -41,10 +41,12 @@ resource "vagrant_vm" "example" {
   network {
     private_network {
       type = "dhcp"
+      port = "8080"
     }
 
     public_network {
       type = "dhcp"
+      port = "8080"
     }
   }
 }
