@@ -1,0 +1,6 @@
+terraform init
+terraform providers
+terraform apply 
+terraform plan
+ssh cain@192.168.2.0
+wget 192.168.2.0:8080
